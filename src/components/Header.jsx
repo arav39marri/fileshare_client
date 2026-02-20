@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import InstallButton from "./InstallButton.jsx";
 
 export default function Header({ theme, onToggleTheme }) {
   return (
@@ -14,6 +15,7 @@ export default function Header({ theme, onToggleTheme }) {
         <button className="button secondary" onClick={onToggleTheme}>
           {theme === "dark" ? "Light" : "Dark"}
         </button>
+        <InstallButton />
       </div>
     </div>
   );
