@@ -1,6 +1,6 @@
 {
-  "name": "LiveShareFile",
-  "short_name": "LiveShareFile",
+  "name": "QuickFileShare",
+  "short_name": "QuickFileShare",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
